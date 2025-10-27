@@ -13,7 +13,7 @@ RUN npm install
 RUN npm run build
 
 # Expose app port
-EXPOSE 8080
+EXPOSE 3000
 
 # Start app
 CMD ["npm", "start"]
