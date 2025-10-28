@@ -1,21 +1,5 @@
-pipeline {
-    agent any
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building...'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing...'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying...'
-            }
-        }
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Jenkins ");
     }
 }
-
